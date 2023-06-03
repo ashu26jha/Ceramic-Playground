@@ -1,8 +1,6 @@
 import { createContext, useContext } from "react";
-import { CeramicClient } from "@ceramicnetwork/http-client"
 import { ComposeClient } from "@composedb/client";
 import { definition } from '../defination.js'
-import { RuntimeCompositeDefinition } from "@composedb/types";
 
 const composeClient = new ComposeClient({
     ceramic: "http://localhost:7007",
