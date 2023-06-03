@@ -1,0 +1,2 @@
+export const definition = {"models":{"NameList":{"id":"kjzl6hvfrbw6c88uva90lzdu3er868enbh1eh8reubjdhoj6jj48vru0d36sdx6","accountRelation":{"type":"list"}}},"objects":{"NameList":{"Name":{"type":"string","required":true}}},"enums":{},"accountData":{"nameListList":{"type":"connection","name":"NameList"}}}
+ 
