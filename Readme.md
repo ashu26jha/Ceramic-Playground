@@ -49,7 +49,7 @@ mutation CreateNewDemoAddressBook($i: CreateDemoAddressBookInput!){
 }
 
 
-composedb graphql:server --graphiql --port=35000 demo-runtime.json --did-private-key $(cat priv.key)
+composedb graphql:server --graphiql --port=35000 runtime.json --did-private-key $(cat priv.key)
 
 
 Line 52 is running this server is running
